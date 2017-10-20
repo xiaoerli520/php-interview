@@ -12,9 +12,24 @@ if ($content === 'e') {
 }
 
 // var_dump($content);
-$handle = fopen('liuyan.txt', 'w+') or die('cant make or open file');
+$handle = fopen('liuyan.txt', 'r+') or die('cant make or open file');
 
-$content = readfile('liuyan.txt');
+// 存储格式可以使用,进行隔开
 
-var_dump($content);
+$ori_content = fgets($handle);
+
+$content = ",".$content;
+
+$write = fwrite($handle, $content);
+
+
+
+fclose($handle);
+
+
+echo "<a href='uploadf.php'>go back</a>";
+
+
+
+
 

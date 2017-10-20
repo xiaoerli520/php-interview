@@ -15,5 +15,15 @@
 </form>
 
 
+<?php
+$handle = fopen('liuyan.txt', 'r') or die('cant read file');
+$data = fgets($handle);
+$arr = explode(',', $data);
+foreach ($arr as $k => $v) {
+    echo "{$v}\n";
+}
+?>
+
+
 </body>
 </html>
