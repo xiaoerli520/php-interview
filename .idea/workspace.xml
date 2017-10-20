@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd55fe72-1572-42ab-9c99-5afec2da3b46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addtest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyanbenf/uploadf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyanbenm/upload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyanbenm/uploadf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liuyanbenf/upload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liuyanbenf/uploadf.php" afterPath="$PROJECT_DIR$/liuyanbenf/uploadf.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,11 +61,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadf.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uploadf.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liuyanbenf/uploadf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/liuyanbenf/upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liuyan.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liuyanbenf/liuyan.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,6 +113,8 @@
         <option value="$PROJECT_DIR$/liuyanbenm/upload.php" />
         <option value="$PROJECT_DIR$/liuyanbenm/uploadf.php" />
         <option value="$PROJECT_DIR$/liuyanbenf/uploadf.php" />
+        <option value="$PROJECT_DIR$/liuyanbenf/liuyan.txt" />
+        <option value="$PROJECT_DIR$/liuyanbenf/upload.php" />
       </list>
     </option>
   </component>
@@ -139,6 +158,11 @@
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
               <item name="example" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="liuyanbenf" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,20 +187,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.uploadf.php">
+  <component name="RunManager" selected="JavaScript Debug.uploadf.php (1)">
     <configuration name="addtest.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/addtest.php" />
     <configuration name="example.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/example.php" />
+    <configuration name="uploadf.php (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/liuyanbenf/uploadf.php" />
     <configuration name="uploadf.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/liuyanbenm/uploadf.php" />
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.example.php" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.addtest.php" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.uploadf.php" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.uploadf.php (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.uploadf.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.addtest.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.example.php" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.uploadf.php (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.uploadf.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.addtest.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.example.php" />
       </list>
     </recent_temporary>
   </component>
@@ -190,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508467164963</updated>
-      <workItem from="1508467170759" duration="4765000" />
+      <workItem from="1508467170759" duration="6358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4765000" />
+    <option name="totallyTimeSpent" value="6358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1242" extended-state="6" />
@@ -280,8 +307,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/liuyanbenf/uploadf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyanbenf/liuyan.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liuyanbenf/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
       </provider>
