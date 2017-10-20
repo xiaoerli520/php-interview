@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd55fe72-1572-42ab-9c99-5afec2da3b46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xuliehua.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yinyong.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zifuchuan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sth_manual/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sth_manual/int.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example.php" afterPath="$PROJECT_DIR$/example.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addtest.php" afterPath="$PROJECT_DIR$/addtest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zifuchuan.php" afterPath="$PROJECT_DIR$/zifuchuan.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="addtest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addtest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="462">
+              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -62,14 +60,24 @@
       <file leaf-file-name="zifuchuan.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zifuchuan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="550">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xuliehua.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="int.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sth_manual/int.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xuliehua.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xuliehua.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="535">
@@ -102,22 +110,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyanbenf/upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="liuyan.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liuyanbenf/liuyan.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sth_manual/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="487">
+                <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -138,7 +139,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/liuyanben.php" />
-        <option value="$PROJECT_DIR$/addtest.php" />
         <option value="$PROJECT_DIR$/liuyanbenm/upload.php.html" />
         <option value="$PROJECT_DIR$/liuyanbenm/upload.php" />
         <option value="$PROJECT_DIR$/liuyanbenm/uploadf.php" />
@@ -149,8 +149,12 @@
         <option value="$PROJECT_DIR$/yinyong.php" />
         <option value="$PROJECT_DIR$/example.php" />
         <option value="$PROJECT_DIR$/time.php" />
-        <option value="$PROJECT_DIR$/zifuchuan.php" />
         <option value="$PROJECT_DIR$/xuliehua.php" />
+        <option value="$PROJECT_DIR$/trans_from_ELM_nodejs/README.md" />
+        <option value="$PROJECT_DIR$/addtest.php" />
+        <option value="$PROJECT_DIR$/zifuchuan.php" />
+        <option value="$PROJECT_DIR$/sth_manual/int.php" />
+        <option value="$PROJECT_DIR$/sth_manual/README.md" />
       </list>
     </option>
   </component>
@@ -194,6 +198,16 @@
               <item name="example" type="b2602c69:ProjectViewProjectNode" />
               <item name="example" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="liuyanbenm" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sth_manual" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -218,26 +232,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.xuliehua.php">
+  <component name="RunManager" selected="JavaScript Debug.int.php">
+    <configuration name="addtest.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/addtest.php" />
+    <configuration name="int.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/sth_manual/int.php" />
     <configuration name="time.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/time.php" />
-    <configuration name="uploadf.php (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/liuyanbenf/uploadf.php" />
     <configuration name="xuliehua.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/xuliehua.php" />
-    <configuration name="yinyong.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/yinyong.php" />
     <configuration name="zifuchuan.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/example/zifuchuan.php" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.uploadf.php (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.yinyong.php" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.time.php" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.zifuchuan.php" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.xuliehua.php" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.time.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.zifuchuan.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.xuliehua.php" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.addtest.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.int.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.xuliehua.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.zifuchuan.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.time.php" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.yinyong.php" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.uploadf.php (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.int.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.addtest.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.xuliehua.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.zifuchuan.php" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.time.php" />
       </list>
     </recent_temporary>
   </component>
@@ -251,12 +265,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508467164963</updated>
-      <workItem from="1508467170759" duration="10832000" />
+      <workItem from="1508467170759" duration="12776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10832000" />
+    <option name="totallyTimeSpent" value="12776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +283,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1242" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18574513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -280,7 +293,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25337186" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25337186" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -356,29 +369,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addtest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -399,19 +393,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zifuchuan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xuliehua.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addtest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zifuchuan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sth_manual/int.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sth_manual/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="487">
+            <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
