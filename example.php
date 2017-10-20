@@ -9,3 +9,7 @@ if ($a = 3 > 0 || $b = 2 > 0) {
     var_dump((3 > 0));
     echo $b . "\n";
 }
+
+echo null;
+echo null + 1;
+echo null + 2;
