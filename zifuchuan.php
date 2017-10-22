@@ -27,3 +27,5 @@ print(NULL);
 print(false);
 $c = sprintf("this is return printf %d", $b);
 var_dump($c); //sprintf 不打印 是返回的
+
+

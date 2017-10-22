@@ -16,3 +16,7 @@ if ((float)$a + (float)$b === (float)0.6) {
 }
 
 echo floor((0.1+0.7)*10);
+
+var_dump((bool)(-2));
+
+echo (bool)-2;
