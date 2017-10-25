@@ -12,7 +12,21 @@
 
 >Boolean
 
-FALSE 的集合有 0 0.0 '' '0' false null array()
+FALSE 的集合有 0 0.0 '' '0' false null array() 
+
+注意 NaN和resource都是true
+```
+<?php
+var_dump((bool) "");        // bool(false) 
+var_dump((bool) 1);         // bool(true)
+var_dump((bool) -2);        // bool(true) attention！
+var_dump((bool) "foo");     // bool(true)
+var_dump((bool) 2.3e5);     // bool(true)
+var_dump((bool) array(12)); // bool(true)
+var_dump((bool) array());   // bool(false)
+var_dump((bool) "false");   // bool(true) attention！
+?>
+```
 
 ```
 -1 和其它非零值（不论正负）一样，被认为是 TRUE！
