@@ -64,3 +64,26 @@ echo add(...$a);
 ?>
 
 ```
+
+以前写带默认值函数的时候会出现Missing Argument 1的问题 是因为函数定义的参数顺序不对
+
+```
+<?php
+function makeyogurt($type = "acidophilus", $flavour)
+{
+    return "Making a bowl of $type $flavour.\n";
+}
+
+echo makeyogurt("raspberry");   // won't work as expected
+?>
+
+<?php
+function makeyogurt($flavour, $type = "acidophilus")
+{
+    return "Making a bowl of $type $flavour.\n";
+}
+
+echo makeyogurt("raspberry");   // works as expected
+?>
+```
+
