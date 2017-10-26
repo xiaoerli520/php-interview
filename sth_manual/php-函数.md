@@ -87,3 +87,198 @@ echo makeyogurt("raspberry");   // works as expected
 ?>
 ```
 
+PHP函数在接收参数的时候也可以进行类型要求
+
+```
+<?php
+ function test(boolean $param) {}
+ test(true);
+ ?>
+ 
+ 然而这样是会报错的 要求bool  给了个bool
+ 
+ 参数类型判断也可以适用于类等
+ 
+ class C {}
+ class D extends C {}
+ 
+ // This doesn't extend C.
+ class E {}
+ 
+ function f(C $c) {
+     echo get_class($c)."\n";
+ }
+ 
+ f(new C);
+ f(new D);  // extend是可以的
+ f(new E); // 此句报错 会出现不是instanceof C的fatal
+ 
+ interface 同样适用
+ <?php
+ interface I { public function f(); }
+ class C implements I { public function f() {} }
+ 
+ // This doesn't implement I.
+ class E {}
+ 
+ function f(I $i) {
+     echo get_class($i)."\n";
+ }
+ 
+ f(new C);
+ f(new E);
+ ?>
+ 
+```
+
+## return
+
+```
+<?php
+function small_numbers()
+{
+    return array (0, 1, 2);
+}
+list ($zero, $one, $two) = small_numbers(); // list的方法是把数组的值赋给一些变量
+?>
+```
+
+PHP7新特性 确定返回值的类型
+
+```
+<?php
+function sum($a, $b): float {
+    return $a + $b;
+}
+
+// Note that a float will be returned.
+var_dump(sum(1, 2));
+?>
+
+但是！！
+<?php
+declare(strict_types=1);
+
+function sum($a, $b): int {
+    return $a + $b;
+}
+
+var_dump(sum(1, 2));
+var_dump(sum(1, 2.5)); // 这句会fatal 因为返回了float 是错误的
+?>
+```
+
+## 可变函数
+
+PHP 支持可变函数的概念。这意味着如果一个变量名后有圆括号，PHP 将寻找与变量的值同名的函数，并且尝试执行它。
+
+可变函数可以用来实现包括回调函数，函数表在内的一些用途。
+
+```
+<?php
+function foo() {
+    echo "In foo()<br />\n";
+}
+
+function bar($arg = '') {
+    echo "In bar(); argument was '$arg'.<br />\n";
+}
+
+// 使用 echo 的包装函数
+function echoit($string)
+{
+    echo $string;
+}
+
+$func = 'foo';
+$func();        // This calls foo()
+
+$func = 'bar';
+$func('test');  // This calls bar()
+
+$func = 'echoit';
+$func('test');  // This calls echoit()
+?>
+```
+
+## 匿名函数 (闭包函数)
+
+```
+<?php
+$greet = function($name)
+{
+    printf("Hello %s\r\n", $name);
+};
+
+$greet('World');
+$greet('PHP');
+?>
+```
+
+闭包可以从父作用域中继承变量。 任何此类变量都应该用 use 语言结构传递进去。 
+PHP 7.1 起，不能传入此类变量： superglobals、 $this 或者和参数重名。
+
+```
+<?php
+$message = 'hello';
+
+// 没有 "use"
+$example = function () {
+    var_dump($message);
+};
+echo $example();
+
+// 继承 $message
+$example = function () use ($message) {
+    var_dump($message);
+};
+echo $example();
+
+// Inherited variable's value is from when the function
+// is defined, not when called
+// 也就是说当use的时候的变量值已经固定 以后重新定义是无用的
+$message = 'world';
+echo $example();
+
+// Reset message
+$message = 'hello';
+
+// Inherit by-reference
+// 使用引用就可以受影响了
+$example = function () use (&$message) {
+    var_dump($message);
+};
+echo $example();
+
+// The changed value in the parent scope
+// is reflected inside the function call
+$message = 'world';
+echo $example();
+
+// Closures can also accept regular arguments
+$example = function ($arg) use ($message) {
+    var_dump($arg . ' ' . $message);
+};
+$example("hello");
+?>
+```
+
+静态闭包函数
+
+```
+<?php
+
+class Foo
+{
+    function __construct()
+    {
+        $func = static function() {
+            var_dump($this);
+        };
+        $func();
+    }
+};
+new Foo();
+
+?>
+```
