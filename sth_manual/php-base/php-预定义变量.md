@@ -74,5 +74,34 @@ $_REQUEST
 
 $_ENV
 
+通过环境方式传递给当前脚本的变量的数组。
+
+$php_errormsg
+```
+<?php
+@strpos();
+echo $php_errormsg;
+?>
+```
+
+
+显示 前一个错误信息
+
+$http_response_header — HTTP 响应头
+
+$argc = 传递给脚本的参数数目
+
+```
+<?php
+var_dump($argc);
+?>
+当使用这个命令执行: php script.php arg1 arg2 arg3
+
+以上例程的输出类似于：
+
+int(4)
+```
+
+$argv 传递给脚本的参数数组
 
 
